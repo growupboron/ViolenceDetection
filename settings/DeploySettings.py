@@ -1,6 +1,6 @@
 import numpy as np
 
-PATH_TO_MODEL_CHECKPOINTS = "/content/ViolenceDetection/model/ViolenceNet.ckptt"
+PATH_TO_MODEL_CHECKPOINTS = "/content/ViolenceDetection/model/ViolenceNet.ckpt"
 
 '''
       To smooth the Judgement of Fight/NoneFight, count of neighbor frames
