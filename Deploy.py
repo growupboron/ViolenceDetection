@@ -83,14 +83,14 @@ def DetectViolence(PATH_FILE_NAME_OF_SOURCE_VIDEO, PATH_FILE_NAME_TO_SAVE_RESULT
 							 value=deploySettings.NO_FIGHT_BORDER_COLOR)
 
 
-		cv2.imshow("Violence Detection", resultImage)
+		#cv2.imshow("Violence Detection", resultImage)
 		if shouldSaveResult:
 			videoSavor.AppendFrame(resultImage)
 
 		userResponse = cv2.waitKey(1)
 		if userResponse == ord('q'):
 			videoReader.release()
-			cv2.destroyAllWindows()
+			#cv2.destroyAllWindows()
 			break
 
 		else:
